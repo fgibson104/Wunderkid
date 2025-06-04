@@ -1,0 +1,35 @@
+2025-01-25 17:25:43.715 GMT [5408] LOG:  starting PostgreSQL 17.2 on x86_64-windows, compiled by msvc-19.42.34435, 64-bit
+2025-01-25 17:25:43.719 GMT [5408] LOG:  listening on IPv6 address "::1", port 5432
+2025-01-25 17:25:43.720 GMT [5408] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-01-25 17:25:43.761 GMT [12976] LOG:  database system was shut down at 2025-01-25 01:37:12 GMT
+2025-01-25 17:25:43.804 GMT [5408] LOG:  database system is ready to accept connections
+2025-01-25 17:26:20.988 GMT [20760] FATAL:  role "postgres" does not exist
+2025-01-25 17:27:22.793 GMT [7960] FATAL:  role "YOUR_USERNAME" does not exist
+2025-01-25 17:27:42.848 GMT [20988] FATAL:  role "postgres" does not exist
+2025-01-25 17:29:29.284 GMT [24476] ERROR:  syntax error at or near "psql" at character 1
+2025-01-25 17:29:29.284 GMT [24476] STATEMENT:  psql -U Fergus -h localhost -p 5432
+	CREATE DATABASE Wunderkid;
+2025-01-25 17:29:29.319 GMT [8028] FATAL:  database "Wunderkid" does not exist
+2025-01-25 17:30:43.770 GMT [10896] LOG:  checkpoint starting: time
+2025-01-25 17:31:08.568 GMT [21120] FATAL:  role "server.js" does not exist
+2025-01-25 17:32:28.804 GMT [10896] LOG:  checkpoint complete: wrote 967 buffers (5.9%); 1 WAL file(s) added, 0 removed, 0 recycled; write=104.721 s, sync=0.266 s, total=105.035 s; sync files=301, longest=0.007 s, average=0.001 s; distance=4542 kB, estimate=4542 kB; lsn=0/1E51D90, redo lsn=0/1E51D00
+2025-01-25 17:32:46.848 GMT [14344] FATAL:  role "server.js" does not exist
+2025-01-25 17:33:12.670 GMT [24820] FATAL:  role "server.js" does not exist
+2025-01-25 17:34:05.996 GMT [24476] ERROR:  syntax error at or near "psql" at character 1
+2025-01-25 17:34:05.996 GMT [24476] STATEMENT:  psql -U postgres -h localhost -p 5432
+	node server.js
+	CREATE DATABASE Wunderkids;
+2025-01-25 17:34:31.362 GMT [24140] FATAL:  database "Wunderkids" does not exist
+2025-01-25 17:35:15.249 GMT [2064] FATAL:  role "server.js" does not exist
+2025-01-25 17:36:12.600 GMT [6428] FATAL:  role "server.js" does not exist
+2025-01-25 17:36:22.980 GMT [9312] FATAL:  role "server.js" does not exist
+2025-01-25 17:39:43.461 GMT [4736] FATAL:  role "server.js" does not exist
+2025-01-25 17:39:55.361 GMT [24844] FATAL:  role "server.js" does not exist
+2025-01-25 17:42:47.605 GMT [5408] LOG:  received fast shutdown request
+2025-01-25 17:42:47.617 GMT [17064] ERROR:  canceling statement due to user request
+2025-01-25 17:42:47.617 GMT [5408] LOG:  aborting any active transactions
+2025-01-25 17:42:47.642 GMT [5408] LOG:  background worker "logical replication launcher" (PID 17064) exited with exit code 1
+2025-01-25 17:42:47.656 GMT [10896] LOG:  shutting down
+2025-01-25 17:42:47.660 GMT [10896] LOG:  checkpoint starting: shutdown immediate
+2025-01-25 17:42:47.672 GMT [10896] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.002 s, total=0.015 s; sync files=1, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=4088 kB; lsn=0/1E51E40, redo lsn=0/1E51E40
+2025-01-25 17:42:47.692 GMT [5408] LOG:  database system is shut down
